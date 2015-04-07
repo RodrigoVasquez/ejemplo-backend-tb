@@ -8,8 +8,8 @@ Asumiendo que $GLASSFISH_HOME, path de instalación glassfish
 * Crear un recurso jdbc: http://dev.mysql.com/doc/connector-j/en/connector-j-usagenotes-glassfish-config.html
 * Importar proyecto en Netbeans o eclipse (ambos deben tener soporte para gradle).
 * Modificar el glassfishHome en el archivo 
-          ~/.gradle/gradle.properties:
-           glassfishHome=/path/to/glassfish_home
+          + ~/.gradle/gradle.properties:
+          + glassfishHome=/path/to/glassfish_home
 * Ejecutar gradle deploy
 * Verificar que esta funcionando en localhost:8080/ejemplo-backend-tb/customers
 
