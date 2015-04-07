@@ -35,7 +35,7 @@ war {
 *  For more information about Exec tasks see
 *  http://www.gradle.org/docs/current/dsl/org.gradle.api.tasks.Exec.html
 */
-task run(dependsOn: 'war', type:Exec) {
+task deploy(dependsOn: 'war', type:Exec) {
   workingDir "${glassfishHome}${File.separator}bin"
  
   if (System.properties['os.name'].toLowerCase().contains('osx')) {
